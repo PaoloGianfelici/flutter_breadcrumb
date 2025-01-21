@@ -61,7 +61,7 @@ class _ScrollBehaviorState extends State<ScrollBehavior> {
           children: <Widget>[
             TextButton(
               style: TextButton.styleFrom(
-                primary: ExampleColors.primary,
+                foregroundColor: ExampleColors.primary,
               ),
               onPressed: () {
                 if (_itemCount < 20) {
@@ -75,7 +75,7 @@ class _ScrollBehaviorState extends State<ScrollBehavior> {
             ),
             TextButton(
               style: TextButton.styleFrom(
-                primary: ExampleColors.primary,
+                foregroundColor: ExampleColors.primary,
               ),
               onPressed: () {
                 if (_itemCount > 0) {
@@ -89,7 +89,7 @@ class _ScrollBehaviorState extends State<ScrollBehavior> {
             ),
             TextButton(
               style: TextButton.styleFrom(
-                primary: ExampleColors.primary,
+                foregroundColor: ExampleColors.primary,
               ),
               onPressed: () {
                 setState(() {
@@ -100,7 +100,7 @@ class _ScrollBehaviorState extends State<ScrollBehavior> {
             ),
             TextButton(
               style: TextButton.styleFrom(
-                primary: ExampleColors.primary,
+                foregroundColor: ExampleColors.primary,
               ),
               onPressed: () {
                 setState(() {
@@ -111,7 +111,7 @@ class _ScrollBehaviorState extends State<ScrollBehavior> {
             ),
             TextButton(
               style: TextButton.styleFrom(
-                primary: ExampleColors.primary,
+                foregroundColor: ExampleColors.primary,
               ),
               onPressed: () {
                 _animateToFirst();
@@ -120,7 +120,7 @@ class _ScrollBehaviorState extends State<ScrollBehavior> {
             ),
             TextButton(
               style: TextButton.styleFrom(
-                primary: ExampleColors.primary,
+                foregroundColor: ExampleColors.primary,
               ),
               onPressed: () {
                 _animateToLast();
@@ -129,7 +129,7 @@ class _ScrollBehaviorState extends State<ScrollBehavior> {
             ),
             TextButton(
               style: TextButton.styleFrom(
-                primary: ExampleColors.primary,
+                foregroundColor: ExampleColors.primary,
               ),
               onPressed: () {
                 setState(() {

@@ -6,7 +6,7 @@ import 'package:flutter_breadcrumb/flutter_breadcrumb.dart';
 class ShowCases extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final titleTextStyle = Theme.of(context).textTheme.headline6?.copyWith(
+    final titleTextStyle = Theme.of(context).textTheme.titleLarge?.copyWith(
               color: Colors.black54,
               fontSize: 16,
             ) ??

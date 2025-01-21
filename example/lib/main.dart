@@ -11,8 +11,8 @@ class MyApp extends StatelessWidget {
       title: ExampleStrings.breadcrumb,
       theme: ThemeData(
         primarySwatch: ExampleColors.colorSwatch,
-        accentColor: ExampleColors.accent,
-        backgroundColor: ExampleColors.background,
+        // secondaryHeaderColor: ExampleColors.accent,
+        // backgroundColor: ExampleColors.background,
         scaffoldBackgroundColor: ExampleColors.background,
         buttonTheme: ButtonThemeData(
           minWidth: 40,
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.dark(),
         ),
         textTheme: TextTheme(
-          button: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+          displayMedium: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
         ),
       ),
       home: Home(),
